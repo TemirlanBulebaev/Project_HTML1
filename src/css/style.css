@@ -1,0 +1,29 @@
+body {
+    background-color: #FFE2B0;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 15px;
+}
+
+ul {
+    list-style-type: none; /* Убирает точки из списка */
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none; /* Убирает подчеркивание */
+    font-size: 18px;
+}
+
+div {
+    margin: 30px 50px 50px 0px;
+    padding: 20px 40px 0px 0px;
+    border: 3px solid black;
+    background-color: green;
+}
