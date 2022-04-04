@@ -4,6 +4,7 @@ body {
 
 header {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -13,6 +14,12 @@ h1 {
 ul {
     list-style-type: none; /* Убирает точки из списка */
     text-align: center;
+    padding: 0px;
+}
+
+li {
+    display: inline;
+    margin-right: 100px;
 }
 
 a {
@@ -26,4 +33,16 @@ div {
     padding: 20px 40px 0px 0px;
     border: 3px solid black;
     background-color: green;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+li:last-child { /* Последний элемент li не будет двигать маргджин */
+    margin-right: 0px;
+}
+
+a:hover {  /* Обращение к псевдоклассу наведения */
+    color: red;
 }
