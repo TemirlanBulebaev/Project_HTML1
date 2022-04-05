@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #FFE2B0;
 }
@@ -45,4 +49,39 @@ li:last-child { /* Последний элемент li не будет двиг
 
 a:hover {  /* Обращение к псевдоклассу наведения */
     color: red;
+}
+
+.secition-about {
+    height: 640px;
+    background: url(../img/01-Картинка-фона.jpg) center/cover no-repeat;
+    position: relative;  /* слеш для двух свойств background-position background-size */    
+}
+
+.secition-about_block {
+    width: 420px;
+    height: 190px;
+    background: linear-gradient(180deg, rgba(244,213,178,0.8) 0%, rgba(234,156,65,0.8) 100%);
+    position: absolute;
+    top: 349px;
+    left: 730px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.secition-about_border {
+    width: 390px;
+    height: 160px;
+    border: 1px solid black; /*solid -сплошная */
+    margin: 0 auto;
+    /* выравниваем элем в др элем */
+}
+
+.secition-about_title {
+    font-size: 36px;
+    margin: 0;
+}
+
+.secition-about_text {
+    font-size: 12px;
+    margin: 0;
 }
